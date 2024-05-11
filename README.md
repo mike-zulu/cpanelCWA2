@@ -42,5 +42,126 @@ Which of the following options best describes the yellow-highlighted portion of 
 127.0.0.1 - frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
 The HTTP status code.
 
+Which of the following yum commands would remove, or uninstall, the mod_speling RPM?
+yum remove ea-apache24-mod_speling
+
+Which of the following best describes the difference between a process and a thread?
+Threads can contain multiple processes, and the processes contained in the thread share its resources.
+
+Which of the following options accurately describes an action one performs in WHM's EasyApache 4 interface?”
+Install new PHP extensions for use in your active Apache/PHP environment.
+
+Which of the following PHP handlers works on only one PHP version at a time?
+DSO
+
+Which interface can be used to set a virtual host's PHP version?
+WHM only
+
+Why is it suggested against using PHP DSO without mod_ruid2 or mpm_itk?
+PHP DSO runs as the user nobody by default. In a shared hosting environment, this is a security issue.
+
+During PHP requests, which of the following statements accurately describes how the DSO handler processes the request?
+PHP handling operates internally by Apache's own processes.
+
+In a cPanel & WHM environment operating with EasyApache 4, one could define an EasyApache profile as which of the following?
+A collection of packages that can be provisioned.
+
+When operating in a cPanel & WHM environment, which of the following files are used by Apache to define the PHP configuration?
+/etc/apache2/conf.d/php.conf
+
+Yudith manages a small web hosting company and has accidentally deleted a zone belonging to a cPanel account. The deleted zone did not contain any custom records.Which of the following interfaces in WHM should she use to recreate the zone?
+WHM » DNS Functions » Add a DNS Zone.
+
+In which of the following WHM interfaces would you enter the default nameservers for accounts that root creates?
+WHM Home >> Server Configuration >> Basic WebHost Manager Setup
+
+The following options found in the Exim Configuration Manager - Basic Editor interface in WHM enables the checking of DNS resolution to see if the sender's domain exists?
+Sender Verification
+
+As a WHM administrator, you receive the following email alert:
+The hostname server.example.com resolves to the 10.0.2.5 IP address. It should resolve to the 10.0.3.5 IP address.
+What is the most likely scenario to have caused this notification to be sent?
+The hostname does not point to the main IP address on the server.
+
+In what mode does cPanel create SPF records by default?
+Development mode (non-production)
+
+What happens when a domain with two NS records in its zone is queried for its NS records?
+Both records are returned.
+
+After installing cPanel & WHM in a new environment, what is the initial, default state of DNS clustering?
+DNS clustering is initially disabled and must be manually enabled.
+
+Which important configuration file would allow you to change important server options, such as enabling debug logging for BIND/named?
+/etc/named.conf
+
+Which of the following is a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
+Field
+
+Which of the following options indicate the correct number of characters that a MySQL 4.1 password contains before being updated to the current standard of 41 character-hashes?”
+16 characters
+
+Given the options below, which of these accurately indicate a point during WHM user interactions, which triggers the system to create grants for all pre-existing cPanel accounts, is based on the configurations set within the Additional MySQL Access Hosts interface?
+These are only created from the individual cPanel account interfaces, and cannot be applied within WHM.
+
+What language is used to add, remove, and view data in a MySQL/MariaDB database?
+SQL
+
+Which of the following database-related terms defines marking a table or row so that only one process can access it a time?”
+Locking
+
+MySQL Profiles can set up what kind of relationship between servers
+1-to-1 (1:1) only
+
+Which of the following files can be found in the /var/cpanel/databases directory in a cPanel & WHM environment?
+none of these
+
+What is the name of the executable responsible for the initial setup of database mapping, as well as any updates that occur between versions in a cPanel & WHM environment?
+dbmaptool
+
+What type of syntax is demonstrated in the following example, can also be found in some of cPanel's mapping-related files stored in the file system?MYSQL: 
+
+  animals: 
+    animals: 
+      - GRANT USAGE ON *.* TO 'animals'@'localhost' IDENTIFIED BY PASSWORD '*75FE48658430441870C524D7ECB8F71EADFAEFD1'
+      - GRANT ALL PRIVILEGES ON `birds`.* TO 'animals'@'localhost'
+      - GRANT ALL PRIVILEGES ON `animals\_fish`.* TO 'animals'@'localhost'
+PGSQL: {}
+JSON
+
+Which of the following SQL queries would be the most effective in identifying MySQL users that still have pre-4.1 passwords in use?
+SELECT DISTINCT user FROM user WHERE length(password) < 41;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
