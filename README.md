@@ -1,4 +1,4 @@
-# cpanelCWA2
+# cpanelCWA2, cwa, CPCP
 
 
 In the context of DNS resolution, what is the term for passing a received query over to another nameserver?
