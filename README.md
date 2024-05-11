@@ -132,6 +132,44 @@ JSON
 Which of the following SQL queries would be the most effective in identifying MySQL users that still have pre-4.1 passwords in use?
 SELECT DISTINCT user FROM user WHERE length(password) < 41;
 
+What is the role of the -f flag when used with the exiqgrep utility?
+Select messages by message ID.
+
+What header information would be present in both email messages being exchanged between two cPanel servers but not appear in the Exim logs of either server?
+Exim ID
+
+What does the line in the Exim log that contains the SpamAssassin warning signify?
+The cPanel account that the message was scanned by.
+
+Which of the following describes what is indicated by the use of the localuser router during a message's delivery, as seen in the Exim logs?
+The message was delivered to a default (cPanel) account.
+
+Of the following mailbox formats, which of these are supported for use in cPanel & WHM environments?
+mdbox
+
+Given the following, which option best describes an actual reason that the system may place a message into the Exim queue?
+None of these options describe reasons for Exim to queue a message.
+
+Within which of the following WHM interfaces would you look to determine why the system did not deliver an email message?
+WHM Home » Email » Mail Delivery Reports
+
+All mail from a specific user is neither delivered to the inbox nor bounced. When you check the WHM Home » Email » Mail Delivery Reports interface, you see a funnel-shaped icon next to the message. Which of the following options best describes what this probably indicates?
+The message was likely caught in a user-level filter and deleted.
+
+Which of the following mail diagnostics are available within the WHM interface, and can help you troubleshoot mail?
+A diagnostic tool that performs a permission reset or a reset on an account’s mailbox files permissions on an account's mailbox files and folders.
+
+If you receive a report that emails from a particular user on your server are not being delivered to the inbox or bounced back, and you see a green checkmark icon next to the message when you check the WHM Home » Email » Mail Delivery Reports interface, what is the most likely explanation for this icon?
+That the message has been caught in a user-level filter and deleted.
+
+What does it mean when a mail server "relays" its mail?
+It is sending spam.
+
+Given the following options, which accurately describe the Mail Troubleshooter interface's behavior, found in WHM?
+It sends an actual test message, but only to local destinations on the server.
+
+Given the following, which best describes an actual reason that the system may place a message into the Exim queue?
+The load average on the server is above the delivery threshold.
 
 
 
